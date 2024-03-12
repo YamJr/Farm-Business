@@ -11,7 +11,6 @@ exports.registerCompany = catchAsyncError(async (req, res, next) => {
     contactNo,
     companyName,
     email,
-    gst,
     password,
     orders,
   } = req.body;
@@ -22,7 +21,6 @@ exports.registerCompany = catchAsyncError(async (req, res, next) => {
     contactNo,
     companyName,
     email,
-    gst,
     password,
     orders,
   });

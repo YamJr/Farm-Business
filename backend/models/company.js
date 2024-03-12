@@ -33,11 +33,6 @@ const CompanySchema = new mongoose.Schema({
     unique: true,
     validate: [validator.isEmail, "invalid email id"],
   },
-  gst: {
-    type: String,
-    required: true,
-    unique: true,
-  },
   password: {
     type: String,
     required: true,
